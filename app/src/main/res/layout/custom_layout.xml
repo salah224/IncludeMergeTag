@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+
+        android:text="Button" />
+
+    <ImageView
+        android:id="@+id/iimageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:srcCompat="@android:drawable/btn_star" />
+
+
+</merge>
